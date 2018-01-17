@@ -53,7 +53,7 @@ const jsmodule = {
 }
 
 if (process.env.NODE_ENV === 'development') {
-  
+  // nothing current
 } else if (process.env.NODE_ENV === 'production') {
   const prodPlugins = [
     uglify({
